@@ -229,7 +229,6 @@ export default function ColorPage() {
                 column: 1,
               }}
             >
-              {/* @ts-expect-error - TS2786 - 'PaletteGenerator' cannot be used as a JSX component. */}
               <PaletteGenerator count={2} />
             </Flex>
             <Box marginBottom={10}>
@@ -252,7 +251,6 @@ export default function ColorPage() {
                 column: 1,
               }}
             >
-              {/* @ts-expect-error - TS2786 - 'PaletteGenerator' cannot be used as a JSX component. */}
               <PaletteGenerator count={3} />
             </Flex>
             <Box marginBottom={10}>
@@ -276,7 +274,6 @@ export default function ColorPage() {
                 column: 1,
               }}
             >
-              {/* @ts-expect-error - TS2786 - 'PaletteGenerator' cannot be used as a JSX component. */}
               <PaletteGenerator count={4} />
             </Flex>
             <Box marginBottom={10}>
@@ -300,7 +297,6 @@ export default function ColorPage() {
                 column: 1,
               }}
             >
-              {/* @ts-expect-error - TS2786 - 'PaletteGenerator' cannot be used as a JSX component. */}
               <PaletteGenerator count={6} />
             </Flex>
             <Box marginBottom={10}>
@@ -323,7 +319,6 @@ export default function ColorPage() {
                 column: 1,
               }}
             >
-              {/* @ts-expect-error - TS2786 - 'PaletteGenerator' cannot be used as a JSX component. */}
               <PaletteGenerator count={8} />
             </Flex>
             <Box marginBottom={10}>

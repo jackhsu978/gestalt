@@ -99,7 +99,6 @@ export type Props = {
  * ![DatePicker closed light mode](https://raw.githubusercontent.com/pinterest/gestalt/master/playwright/visual-test/DatePicker-closed.spec.mjs-snapshots/DatePicker-closed-chromium-darwin.png)
  * ![DatePicker closed dark mode](https://raw.githubusercontent.com/pinterest/gestalt/master/playwright/visual-test/DatePicker-closed-dark.spec.mjs-snapshots/DatePicker-closed-dark-chromium-darwin.png)
  */
-// @ts-expect-error - TS2345 - Argument of type '({ disabled, errorMessage, excludeDates, helperText, id, idealDirection, includeDates, label, localeData, maxDate, minDate, name, nextRef, onChange, placeholder, rangeEndDate, rangeSelector, rangeStartDate, selectLists, value, }: Props, ref: ForwardedRef<HTMLInputElement>) => ReactNode' is not assignable to parameter of type 'ForwardRefRenderFunction<HTMLInputElement, Props>'.
 const DatePickerWithForwardRef = forwardRef<HTMLInputElement, Props>(function DatePicker(
   {
     disabled,

@@ -100,7 +100,6 @@ type ButtonProps = {
  * ![ButtonLink light mode](https://raw.githubusercontent.com/pinterest/gestalt/master/playwright/visual-test/ButtonLink.spec.mjs-snapshots/ButtonLink-chromium-darwin.png)
  * ![ButtonLink dark mode](https://raw.githubusercontent.com/pinterest/gestalt/master/playwright/visual-test/ButtonLink-dark.spec.mjs-snapshots/ButtonLink-dark-chromium-darwin.png)
  */
-// @ts-expect-error - TS2345 - Argument of type '({ accessibilityLabel, color, dataTestId, disabled, fullWidth, iconEnd, onClick, tabIndex, size, text, href, rel, target, }: ButtonProps, ref: ForwardedRef<HTMLAnchorElement>) => ReactNode' is not assignable to parameter of type 'ForwardRefRenderFunction<HTMLAnchorElement, ButtonProps>'.
 const ButtonLinkWithForwardRef = forwardRef<HTMLAnchorElement, ButtonProps>(function ButtonLink(
   {
     accessibilityLabel,

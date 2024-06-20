@@ -93,7 +93,6 @@ type Props = {
  * ![IconButton dark mode](https://raw.githubusercontent.com/pinterest/gestalt/master/playwright/visual-test/IconButton-dark.spec.mjs-snapshots/IconButton-dark-chromium-darwin.png)
  *
  */
-// @ts-expect-error - TS2345 - Argument of type '({ href, rel, target, accessibilityLabel, bgColor, dangerouslySetSvgPath, dataTestId, disabled, icon, iconColor, onClick, padding, tabIndex, tooltip, size, }: Props, ref: ForwardedRef<HTMLAnchorElement>) => ReactNode' is not assignable to parameter of type 'ForwardRefRenderFunction<HTMLAnchorElement, Props>'.
 const IconButtonLinkWithForwardRef = forwardRef<HTMLAnchorElement, Props>(function IconButtonLink(
   {
     href,

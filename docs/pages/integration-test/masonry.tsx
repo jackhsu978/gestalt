@@ -110,7 +110,6 @@ export default function TestPage({
 
   return (
     <ColorSchemeProvider colorScheme="light">
-      {/* @ts-expect-error - TS2786 - 'MaybeLazyHydrate' cannot be used as a JSX component. */}
       <MaybeLazyHydrate ssrOnly={ssrOnly}>
         {/* @ts-expect-error - TS2769 - No overload matches this call. */}
         <MasonryContainer

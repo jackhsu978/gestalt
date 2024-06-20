@@ -98,7 +98,6 @@ export default function Collection(props: Props) {
     <div className={layoutStyles.relative} style={{ width, height }}>
       {items.map(({ idx, ...style }) => (
         <div key={idx} className={layoutStyles.absolute} style={style}>
-          {/* @ts-expect-error - TS2786 - 'Item' cannot be used as a JSX component. */}
           {renderItem ? renderItem({ idx }) : Item && <Item idx={idx} />}
         </div>
       ))}

@@ -30,7 +30,6 @@ type Props = {
 };
 
 const InternalDismissIconButtonWithForwardRef = forwardRef<HTMLButtonElement, Props>(
-  // @ts-expect-error - TS2345 - Argument of type '({ accessibilityLabel, accessibilityControls, iconColor, onClick, size, }: Props, ref: ForwardedRef<HTMLButtonElement>) => ReactNode' is not assignable to parameter of type 'ForwardRefRenderFunction<HTMLButtonElement, Props>'.
   function IconButton(
     {
       accessibilityLabel,

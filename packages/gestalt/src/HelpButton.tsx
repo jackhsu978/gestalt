@@ -171,7 +171,6 @@ export default function HelpButton({
     );
 
   const popoverElement = (
-    // @ts-expect-error - TS2786 - 'InternalPopover' cannot be used as a JSX component.
     <InternalPopover
       accessibilityLabel={accessibilityPopoverLabel}
       anchor={tapAreaRef.current}
@@ -265,7 +264,6 @@ export default function HelpButton({
             {popoverElement}
           </Box>
         ) : (
-          // @ts-expect-error - TS2786 - 'Layer' cannot be used as a JSX component.
           <Layer zIndex={zIndexWrapper}>{popoverElement}</Layer>
         ))}
     </Flex>

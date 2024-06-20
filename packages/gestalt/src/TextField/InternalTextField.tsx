@@ -120,7 +120,6 @@ type Props = {
 
 const applyDensityStyle = (size: SizeType) => styles[`${size}`];
 
-// @ts-expect-error - TS2345 - Argument of type '({ accessibilityControls, accessibilityActiveDescendant, autoComplete, dataTestId, disabled, errorMessage, hasError, helperText, id, iconButton, label, labelDisplay, max, maxLength, mobileEnterKeyHint, mobileInputMode, min, name, onBlur, onChange, onClick, onFocus, onKeyDown, placeholder, readOnly, size, step, tags,...' is not assignable to parameter of type 'ForwardRefRenderFunction<HTMLInputElement, Props>'.
 const InternalTextFieldWithForwardRef = forwardRef<HTMLInputElement, Props>(function TextField(
   {
     accessibilityControls,

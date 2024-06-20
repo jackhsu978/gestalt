@@ -147,7 +147,6 @@ export default function InternalTooltip({
         {children}
       </Box>
       {isOpen && !!anchor && (
-        // @ts-expect-error - TS2786 - 'Layer' cannot be used as a JSX component.
         <Layer zIndex={zIndex}>
           {isInExperiment ? (
             <Controller

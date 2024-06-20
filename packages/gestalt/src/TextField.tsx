@@ -116,7 +116,6 @@ type Props = {
  * ![TextField dark mode](https://raw.githubusercontent.com/pinterest/gestalt/master/playwright/visual-test/TextField-dark.spec.mjs-snapshots/TextField-dark-chromium-darwin.png)
  *
  */
-// @ts-expect-error - TS2345 - Argument of type '({ autoComplete, dataTestId, disabled, errorMessage, hasError, helperText, id, label, labelDisplay, maxLength, mobileEnterKeyHint, mobileInputMode, name, onBlur, onChange, onFocus, onKeyDown, placeholder, readOnly, size, tags, type: typeProp, value, }: Props, ref: ForwardedRef<HTMLInputElement>) => ReactNode' is not assignable to parameter of type 'ForwardRefRenderFunction<HTMLInputElement, Props>'.
 const TextFieldWithForwardRef = forwardRef<HTMLInputElement, Props>(function TextField(
   {
     autoComplete,

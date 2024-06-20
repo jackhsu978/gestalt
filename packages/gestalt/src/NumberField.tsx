@@ -134,7 +134,6 @@ type Props = {
  * ![NumberField dark mode](https://raw.githubusercontent.com/pinterest/gestalt/master/playwright/visual-test/NumberField-dark.spec.mjs-snapshots/NumberField-dark-chromium-darwin.png)
  *
  */
-// @ts-expect-error - TS2345 - Argument of type '({ autoComplete, dataTestId, disabled, mobileEnterKeyHint, errorMessage, helperText, id, label, labelDisplay, max, min, name, onBlur, onChange, onFocus, onKeyDown, placeholder, size, step, value, }: Props, ref: ForwardedRef<HTMLInputElement>) => ReactNode' is not assignable to parameter of type 'ForwardRefRenderFunction<HTMLInputElement, Props>'.
 const NumberFieldWithForwardRef = forwardRef<HTMLInputElement, Props>(function NumberField(
   {
     autoComplete,

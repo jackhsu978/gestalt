@@ -81,7 +81,6 @@ type Props = {
  * ![AvatarGroup light mode](https://raw.githubusercontent.com/pinterest/gestalt/master/playwright/visual-test/AvatarGroup.spec.mjs-snapshots/AvatarGroup-chromium-darwin.png)
  * ![AvatarGroup dark mode](https://raw.githubusercontent.com/pinterest/gestalt/master/playwright/visual-test/AvatarGroup-dark.spec.mjs-snapshots/AvatarGroup-dark-chromium-darwin.png)
  */
-// @ts-expect-error - TS2345 - Argument of type '({ accessibilityLabel, accessibilityControls, accessibilityExpanded, accessibilityHaspopup, addCollaborators, collaborators, href, onClick, role, size, }: Props, ref: ForwardedRef<UnionRefs>) => ReactNode' is not assignable to parameter of type 'ForwardRefRenderFunction<UnionRefs, Props>'.
 const AvatarGroupWithForwardRef = forwardRef<UnionRefs, Props>(function AvatarGroup(
   {
     accessibilityLabel,
